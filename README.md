@@ -25,3 +25,8 @@ Model View Presenter divides our application into three layers namely the Model,
 
 <img src="android-hello-mvp-structure.png" />
 
+GIF:
+================
+
+<img src="android-mvp-pattern-output.gif">
+

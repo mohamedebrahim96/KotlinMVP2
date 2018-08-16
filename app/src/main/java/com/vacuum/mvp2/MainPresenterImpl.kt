@@ -5,9 +5,6 @@ class MainPresenterImpl(var main:MainView?,var geetquote:GetQuoteInteractor) :Ma
 
 
 
-
-
-
     override fun onFinished(string: String) {
         if (main != null)
             main?.setQuote(string)

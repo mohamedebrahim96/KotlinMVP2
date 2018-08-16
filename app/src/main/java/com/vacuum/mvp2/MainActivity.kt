@@ -6,9 +6,6 @@ import android.view.View
 import android.view.View.GONE
 import android.view.View.VISIBLE
 import kotlinx.android.synthetic.main.activity_main.*
-import com.vacuum.mvp2.R.id.textView
-import com.vacuum.mvp2.R.id.progressBar
-
 
 
 class MainActivity : AppCompatActivity(),MainView {

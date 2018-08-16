@@ -19,3 +19,9 @@ Model View Presenter divides our application into three layers namely the Model,
 **Model**: This handles the data part of our application  
 **Presenter**: It acts as a bridge that connects a Model and a View.  
 **View**: This is responsible for laying out views with the relevant data as instructed by the Presenter.  
+
+
+<img src="android-mvp-flow.png" />          
+
+<img src="android-hello-mvp-structure.png" />
+

@@ -8,6 +8,8 @@ the new principles.
 
 
 
+
+
 Android MVP
 ========================
 With our current approach, the MainActivity class contains all the implementation logic of our application. We’ve been using stuff ranging from Retrofit callbacks to data models(SharedPref, POJO classes) all inside the Activity class.

@@ -21,6 +21,9 @@ class MainActivity : AppCompatActivity(),MainView {
 
 
 
+
+
+
     override fun showProgress() {
         progressBar.visibility = View.VISIBLE
         textView.visibility = View.INVISIBLE

@@ -1,6 +1,7 @@
 package com.vacuum.mvp2
 
-class MainPresenterImpl(var main:MainView?,var geetquote:GetQuoteInteractor) :MainPresenter,GetQuoteInteractor.OnFinishedListener {
+class MainPresenterImpl(var main:MainView?,var geetquote:GetQuoteInteractor)
+    :MainPresenter,GetQuoteInteractor.OnFinishedListener {
 
 
 

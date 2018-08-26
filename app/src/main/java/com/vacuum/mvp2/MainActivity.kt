@@ -50,4 +50,7 @@ class MainActivity : AppCompatActivity(),MainView {
         super.onDestroy()
         presenter?.onDestroy()
     }
+
+
+
 }

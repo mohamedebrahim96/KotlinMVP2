@@ -51,6 +51,8 @@ class MainActivity : AppCompatActivity(),MainView {
 
 
 
+
+
     override fun onDestroy() {
         super.onDestroy()
         presenter?.onDestroy()

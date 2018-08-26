@@ -37,12 +37,9 @@ class MainActivity : AppCompatActivity(),MainView {
         textView.visibility = VISIBLE
     }
 
-
     override fun setQuote(string: String) {
         textView.setText(string)
     }
-
-
 
 
     override fun onDestroy() {

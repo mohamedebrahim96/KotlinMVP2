@@ -3,6 +3,7 @@ package com.vacuum.mvp2
 import android.os.Bundle
 import android.os.PersistableBundle
 import android.support.v7.app.AppCompatActivity
+import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity: AppCompatActivity(),MainView {
@@ -19,16 +20,22 @@ class MainActivity: AppCompatActivity(),MainView {
     }
 
 
-
-
-
     override fun showProgress() {
-
+        progressBar.visibility = View.VISIBLE
+        textView.visibility = View.INVISIBLE
     }
 
     override fun hideProgress() {
+        progressBar.visibility = View.INVISIBLE
+        textView.visibility = View.VISIBLE
     }
 
     override fun setQuote(string: String) {
+        textView.setText(string)
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        presenter?.ondestpy()
     }
 }

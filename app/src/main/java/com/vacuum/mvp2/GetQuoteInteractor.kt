@@ -8,3 +8,5 @@ interface GetQuoteInteractor {
     fun getnextquote(c: onfinshedlistner)
 
 }
+
+

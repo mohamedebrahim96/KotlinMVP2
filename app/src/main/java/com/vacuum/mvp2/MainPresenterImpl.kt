@@ -13,6 +13,9 @@ class MainPresenterImpl(var m:MainView?, var getQuoteInteractor:GetQuoteInteract
 
 
 
+
+
+
     override fun ondestpy() {
         m = null
     }
